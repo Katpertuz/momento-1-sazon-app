@@ -1,11 +1,20 @@
-.footer{
-
+.Footer{ background-color:  #643B22;
+    color: #F4F4E8;
+    text-align: left;
+    padding: 1.5rem 1rem;
+    margin-top: auto;
 }
 
 .texto{
-
+    font-family: 'Poppins', sans-serif ;
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
 }
 
 .copyright{
-    
+  font-family: 'Inter', sans-serif; 
+  font-size: 0.85rem;
+  margin: 0;
+  opacity: 0.85;
 }

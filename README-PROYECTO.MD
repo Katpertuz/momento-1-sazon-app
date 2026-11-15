@@ -7,10 +7,7 @@ El objetivo principal de esta fase inicial es inicializar el proyecto, establece
 
 ## 👥 Equipo de Desarrollo
 * Katherin Ortega
-* Santiago Ocampo
-* Carlos Duvan
-* Daniel
-* María Paz
+
 
 ## 🛠️ Tecnologías y Herramientas
 * **Core:** React 18
