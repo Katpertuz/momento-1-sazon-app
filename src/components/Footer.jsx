@@ -1,11 +1,11 @@
 import estilos from './Footer.module.css'
 import corona from '../assets/images/corona.svg'
-import doria from '../assets/images/doriapng.png'
+import doria from '../assets/images/logo-doria.png'
 import jet from '../assets/images/jet.svg'
 import pietran from '../assets/images/pietran.png'
-import zenu from '../assets/images/zenu.png'
+import noel from '../assets/images/noel.svg'
 
-const listaLogos=[corona, doria, jet, pietran, zenu];
+const listaLogos=[corona, doria, jet, pietran, noel];
 
  const Footer = () => {
   return (
