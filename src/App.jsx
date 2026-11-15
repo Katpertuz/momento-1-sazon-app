@@ -1,13 +1,15 @@
+import Footer from "./components/Footer"
 
-export const App = () => {
+const App = () => {
   return (
     <>
 
      
-      
+      <Footer/>
 
 
       
     </>
   )
 }
+export default App
