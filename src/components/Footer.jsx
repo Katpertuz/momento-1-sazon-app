@@ -2,10 +2,10 @@ import estilos from './Footer.module.css'
 import corona from '../assets/images/corona.svg'
 import doria from '../assets/images/logo-doria.png'
 import jet from '../assets/images/jet.svg'
-import pietran from '../assets/images/pietran.png'
+import colcafe from '../assets/images/colcafe.png'
 import noel from '../assets/images/noel.svg'
 
-const listaLogos=[corona, doria, jet, pietran, noel];
+const listaLogos=[corona, doria, jet, colcafe, noel];
 
  const Footer = () => {
   return (
@@ -14,6 +14,10 @@ const listaLogos=[corona, doria, jet, pietran, noel];
 
     <div><h3 className={estilos.texto}>Equipo de Desarrollo Sa·zón</h3>
     <p className={estilos.copyright}>Copyright © 2026 Grupo Nutresa · Todos los derechos reservados</p>
+    </div>
+
+    <div>
+    <h2 className={estilos.marcas}>Nuestras Marcas</h2>
     </div>
 
     <div className={estilos.logosContenedor}>

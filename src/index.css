@@ -1,0 +1,13 @@
+html, body {
+background-color: #F4F4E8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
