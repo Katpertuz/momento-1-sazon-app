@@ -1,0 +1,169 @@
+
+.header {
+  background-color: #F4F4E8; 
+  border-color: #E9E8D7;
+  border-bottom: 1.5px solid #E9E8D7;
+  padding: 0.1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+.bloqueIzquierda {
+
+  display: flex;
+  align-items: right;
+  gap: 1.5rem;
+}
+
+.buttonMenu {
+   
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.buttonMenu:hover {
+  background-color: #E9E8D7;
+}
+
+
+.menu {
+ 
+  width: 33px;
+  height: 33px;
+  object-fit: contain;
+  display: block;
+}
+
+.textoMenu {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #643B22; 
+  margin: 0;
+}
+
+.contenedorLogo {
+  display: flex;
+  align-items: center;
+}
+
+
+.logoSazon {
+  height: 100px;        
+  max-height: 100px;
+  width: auto;         
+  object-fit: contain;
+  display: block;
+}
+ 
+.bloqueCentral{
+    flex: 1;
+    max-width: 1000px;
+}
+
+.buscador {
+  
+   width: 100%;
+}
+
+
+.inputBuscador {
+  width: 100%;
+  padding: 0.55rem 1.2rem;
+  border-radius: 20px;
+  border: 1.9px solid #643B22;
+  background-color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #3F4040;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.inputBuscador:focus {
+  border-color: #215833;
+  box-shadow: 0 0 0 3px rgba(33, 88, 51, 0.15);
+}
+
+
+.bloqueDerecha {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.botonCampana {
+  position: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.botonCampana:hover {
+  background-color: #E9E8D7;
+}
+
+
+.campana {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+display: block;
+ 
+}
+
+.badgeAlerta {
+  
+  bottom: 4px;                     
+  width: 7px;
+  height: 7px;
+  background-color: #D6121A;     
+  border-radius: 50%;
+  border: 1.5px solid #F4F4E8;     
+}
+
+
+.buttonInicioSesion {
+  background-color: #FFFFFF;
+  border: 1.5px solid #643B22;
+  border-radius: 21px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 4px 12px 4px 8px;
+  cursor: pointer;
+}
+
+.inicioSesion {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #3F4040;
+   align-items: right;
+}
+
+
+.inicioLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  object-fit: cover;
+  align-items: right;
+  display: block;
+}

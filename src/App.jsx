@@ -1,4 +1,5 @@
 import Footer from "./components/Footer"
+import NavBar from "./components/NavBar"
 
 
 const App = () => {
@@ -6,7 +7,11 @@ const App = () => {
     <>
 
      
-      <Footer/>
+
+
+    <NavBar/>
+
+    <Footer/>
 
 
       
