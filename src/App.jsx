@@ -1,29 +1,23 @@
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import Productcard from "./components/Productcard";
 import './App.css';
-
-import Banner from "./components/Banner"
-import Footer from "./components/Footer"
-import NavBar from "./components/NavBar"
-
 
 const App = () => {
   return (
-    <>
-
-     <div className="layout-app">
-     
+    <div className="layout-app">
       <NavBar />
 
-      
       <main className="contenido-principal">
         <Banner />
+        
+        <Productcard />
       </main>
 
-     
       <Footer />
     </div>
+  );
+};
 
-      
-    </>
-  )
-}
-export default App
+export default App;
