@@ -66,3 +66,19 @@ Si eres un desarrollador y deseas levantar este proyecto en tu entorno local, si
    ```
 
 El proyecto estará disponible por defecto en `http://localhost:5173/`.
+
+
+HU-01: Inicialización del Proyecto React y Maquetación Base
+
+Como	Desarrollador Front-end del equipo Sazón.
+Quiero	Inicializar el proyecto con Vite, definir la arquitectura de carpetas, configurar el kit de marca (CSS) y separar la interfaz estática en componentes lógicos reutilizables.
+Para	Tener una base estructural sólida y escalable que permita al equipo trabajar en paralelo, manejar datos estáticos a través de estados locales y asegurar la consistencia visual del ecosistema.
+
+Criterios de Aceptación: 
+El proyecto debe estar inicializado correctamente utilizando React y Vite.
+1.	Arquitectura: Debe existir una estructura de carpetas clara que incluya al menos: /components, /assets y /views (o /pages).
+2.	Modularidad: La interfaz no debe estar en un solo archivo. Deben existir componentes base lógicos separados, incluyendo como mínimo: <Navbar/>, <ProductCard/> y <Footer/>.
+3.	Estilos: Se deben utilizar CSS Components para implementar y respetar estrictamente el kit de marca de Sazón (colores corporativos de Nutresa, tipografías definidas, etc.).
+4.	Versionamiento (Gitflow):
+o	El repositorio debe contar con las ramas: main, dev y la rama de trabajo feature/setup-inicial (o el nombre que definan).
+o	El historial de la rama de trabajo debe tener al menos 3 commits limpios y descriptivos antes de fusionarse.
