@@ -1,7 +1,8 @@
-import Banner from "./components/Banner";
+
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import Productcard from "./components/Productcard";
+
+import Home from "./pages/Home";
 import './App.css';
 
 const App = () => {
@@ -10,9 +11,9 @@ const App = () => {
       <NavBar />
 
       <main className="contenido-principal">
-        <Banner />
+        <Home />
         
-        <Productcard />
+        
       </main>
 
       <Footer />
